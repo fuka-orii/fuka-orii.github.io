@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<meta name="description" content="長野県富士見町にある牧場で育った私。自然豊かな町のお気に入りスポットを紹介します。">
+<meta property="og:title" content="My Favorite Spot">
+<meta property="og:site_name" content="FUKA ORII">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja-JP">
+<meta property="og:image" content="assets/images/common/favicon.jpg">
+<meta property="og:description" content="長野県富士見町にある牧場で育った私。自然豊かな町のお気に入りスポットを紹介します。">
+<meta name="twitter:card" content="summary">
+<title>FUKA ORII</title>
+<link rel="stylesheet" href="./assets/CSS/reset.css">
+<link href="./assets/images/common/favicon.jpg" rel="icon" type="image/x-icon">
+<link rel="apple-touch-icon" href="./assets/images/common/favicon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/CSS/commom.css">
+<link rel="stylesheet" href="./assets/CSS/top.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 id="top">FUKA ORII</h1>
+    <div id="nav-drawer">
+      <input id="nav-input"  class="none" type="checkbox">
+      <label id="nav-open" for="nav-input">
+        <span></span>
+      </label>
+      <label id="nav-close" class="none" for="nav-input"></label>
+      <nav id="nav-content" class="header__navigation">
+        <div class="nav-drawer__title none">FUKA ORII</div>
+        <ul>
+          <li>
+            <a class="nav-drawer__link-top none" href="#top">TOP</a>
+          </li>
+          <li>
+            <a href="#spot">SPOT</a>
+          </li>
+          <li>
+            <a href="#access">ACCESS</a>
+          </li>
+          <li>
+            <a href="#blog">BLOG</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section-top">
+      <div class="section-top__image">
+        <h2>My Favorite Spot</h2>
+      </div>
+      　　<div class="section-top__lead">
+     　　 <p>
+           長野県富士見町にある牧場で育った私。<br>自然豊かな町の、お気に入りスポットを紹介します。</p>
+    　　</div>
+     </section>
+    <section class="section-spot">
+      <h2 id="spot">SPOT</h2>
+      <ul><!--
+    --><li> 
+          <img class="section-spot__item-picture" src="./assets/images/Top/spot_mountain.jpg" alt="八ヶ岳">
+          <h3 class="section-spot__item-title">八ヶ岳</h3>
+          <p class="section-spot__item-description">
+          自宅から見える雄大な景色。中学生時代には、学校の授業で登山！朝早く起きると綺麗な日の出が見れる。
+          </p>
+        </li><!--
+    --><li>
+          <img class="section-spot__item-picture" src="./assets/images/Top/spot_ski2.jpg" alt="富士見パノラマリゾート">
+          <h3 class="section-spot__item-title">富士見パノラマリゾート</h3>
+          <p class="section-spot__item-description">
+            晴天率85％！東京から90分で着くスキー場。運が良ければ早朝に雲海も見れる！
+          </p>
+        </li><!--
+     --><li>
+          <img class="section-spot__item-picture" src="./assets/images/Top/spot_arupaka.jpg" alt="八ヶ岳アルパカ牧場">
+          <h3 class="section-spot__item-title">八ヶ岳アルパカ牧場</h3>
+          <p class="section-spot__item-description">
+            可愛いアルパカと触れ合える。疾走するアルパカを応援する「アルパカダービー」も開催！
+          </p>
+        </li>
+      </ul>
+    </section>
+  <section class="section-access">
+    <h2 id="access">ACCESS</h2>
+    <address>
+    〒399-0211 <br>長野県諏訪郡富士見町富士見4654-796
+    </address>
+    <div class="section-access__map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.41941350243!2d138.2352848757095!3d35.91223271724996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c5cb55cfb116f%3A0x714937df5bdb4f4c!2z5a-M5aOr6KaL6aeF!5e0!3m2!1sja!2sjp!4v1699594644218!5m2!1sja!2sjp" allowfullscreen=""></iframe>
+    </div>
+  </section>
+  <section class="section-blog">
+    <h2 id="blog">BLOG</h2>
+    <ol>
+      <li>
+        <time datetime="2022-06-10">2022.6.10</time>
+        <h3>我が家の牛</h3>
+        <p>牛舎に入ると、餌の時間かと一斉にこちらを見る牛たち。<br>
+          今日も頑張って乳を出してくれています。…</p>
+      </li>
+      <li>
+        <time datetime="2023-02-13">2023.2.13</time>
+        <h3>地元でスノボ</h3>
+        <p>家族と一緒にパノラマスキー場に行きました。<br>
+          今日も天気が良くて気持ちよかったし、富士山も見えます！…</p>
+      </li>
+    </ol>
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer__container">
+    <nav class="footer__site-map">
+      <h2>FUKA ORII</h2>
+      <ul>
+        <li><a href="#top">TOP</a></li>
+        <li><a href="#spot">SPOT</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#blog">BLOG</a></li>
+      </ul>
+    </nav>
+    <div class="footer__sns_links">
+      <ul>
+        <li><img src="./assets/images/common/instagram.png" alt="instagram icon"></li>
+        <li><img src="./assets/images/common/twitter.png" alt="twitter icon"></li>
+        <li><img src="./assets/images/common/facebook.png" alt="facebook icon"></li>
+      </ul>
+    </div>
+    <small>@FUKA ORII</small></div>
+</footer>
+</body>
+</html>
